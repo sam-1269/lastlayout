@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-   
+    <header>
     <div class="header">
         <div class="container">
             
@@ -33,16 +33,29 @@
                 </div>
                 <div class="header_menu">
                     <ul class="header_list">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#features">Features</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#review">Testimonials</a></li>
-                        <li><a href="#price">Pricing</a></li>
-                        <li><a href ="#contact">Contact</a></li>
+                        <li><a href="#">Home</a>
+                            <div class="hr2"> <img src="img/Prostokąt 2 kopia.png" alt="hr"></div>
+                        </li>
+                        <li><a href="#features">Features</a>
+                            <div class="hr2"> <img src="img/Prostokąt 2 kopia.png" alt="hr"></div>
+                        </li>
+                        <li><a href="#about">About</a>
+                            <div class="hr2"> <img src="img/Prostokąt 2 kopia.png" alt="hr"></div>
+                        </li>
+                        <li><a href="#review">Testimonials</a>
+                            <div class="hr2"> <img src="img/Prostokąt 2 kopia.png" alt="hr"></div>
+                        </li>
+                        <li><a href="#price">Pricing</a>
+                            <div class="hr2"> <img src="img/Prostokąt 2 kopia.png" alt="hr"></div>
+                        </li>
+                        <li><a href ="#contact">Contact</a>
+                            <div class="hr2"> <img src="img/Prostokąt 2 kopia.png" alt="hr"></div>
+                        </li>
                     </ul>
-                    <div class="hr2"> <img src="img/Prostokąt 2 kopia.png" alt="hr"></div>
+                   
                 </div>
             </div>
+        
             <div class="row rowik">
                 <div class="col-xl-6 col-12 header_paragraph">
                   <h4>INTRODUCING LUCID THEME</h4>
@@ -59,7 +72,8 @@
             </div>
         </div>
     </div>
-  
+</header>
+<main>
    <div class="second_block">
     <div class="container">
         <div id="features" class="second_block_header">
@@ -359,7 +373,7 @@
                 <img src="img/Phonecontactus.png" alt="phone">
                 </div>
                 <div class="contact_us_item_info">
-                 <p class="p_contact">Phone:(415) 124-5678</p>
+                 <p class="p_contact"><a class="contact_a" href="tel:+3804151245678">Phone:(415) 124-5678</a></p>
                  <p class="p_contact contact_fax">Fax:(412) 123-8290</p>
                 </div>
               </div>
@@ -382,7 +396,7 @@
                     <img src="img/Envelope.png" alt="letter">
                     </div>
                     <div class="contact_us_item_info">
-                     <p class="p_contact">support@yourname.com</p>
+                     <p class="p_contact"><a class="contact_a" href="mailto:support@yourname.com">support@yourname.com</a></p>
                      
                     </div>
                   </div>
@@ -400,13 +414,13 @@
         <form action="">
             <div class="row popup rowik">
                 <div class="col-xl-6 allinputs">
-                    <input type="text" placeholder="NAME *">
-                    <input type="email" name="email" placeholder="EMAIL *">
-        <input type="text" placeholder="SUBJECT *">
+                    <input type="text"  placeholder="NAME *" required>
+                    <input type="email" name="email" placeholder="EMAIL *" required>
+        <input type="text" placeholder="SUBJECT *" required>
                 </div>
                 <div class="col-xl-6 textarea">
                     <textarea name="textarea" cols="30" rows="7" placeholder="MESSAGE *"></textarea>
-                    <button type="button" class="btn custom-btn btn-link message_button"><strong>SEND MESSAGE</strong></button>
+                    <button type="submit" class="btn custom-btn btn-link message_button"><strong>SEND MESSAGE</strong></button>
                 </div>
         
     </div>
@@ -414,6 +428,8 @@
     </form>
     </div>
    </div>
+</main>
+<footer>
    <div class="footer">
     <div class="container">
         <div class="footer_social_media">
@@ -433,17 +449,19 @@
             <img src="img/linkedin.png" alt="linkedin">
           </div>
         </div>
+        
         <div class="footer_last_message">
             <p>COPYRIGHT &copy; 2014 LUCID ONEPAGE THEME</p>
         </div>
     </div>
    </div>
+</footer>
    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
  
  
-   <script src="slick.min.js"></script>
+   <script src="js/slick.min.js"></script>
    
-   <script src="slider.js"></script>
+   <script src="js/slider.js"></script>
     <!-- jQuery library -->
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
 
