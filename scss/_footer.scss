@@ -1,0 +1,28 @@
+.footer {
+    height: 150px;
+    background-color: #15141A;
+    position: relative;
+    z-index: 2;
+    margin-top: 355px;
+    
+ }
+ 
+ .footer_social_media {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+ }
+ 
+ .media_icons {
+    margin-left: 15px;
+    
+ }
+ 
+ .footer_last_message {
+    text-align: center;
+    margin-top: 20px;
+    color: #444348;
+    font-size: 14px;
+ }

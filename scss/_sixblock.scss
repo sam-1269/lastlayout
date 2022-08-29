@@ -1,0 +1,201 @@
+.six_block_header h6 {
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    margin-top: -10px;
+    margin-left: 0px;
+  }
+ 
+  .six_block_header h2 {
+    font-weight: bold;
+ 
+   }
+ 
+ .six_block_item {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     
+    
+     width: 270px;
+     margin-right: 10px;
+     
+     
+     &:hover {
+              
+       .six_block_item_price {
+          color: white;
+       }
+         
+       .blueblock {
+          color: #ffffff;
+       }
+      
+ 
+       .price {
+          color: white;
+        }
+ 
+        .cifra {
+          color: white;
+        }
+ 
+       .blueblockprice {
+           background-color: #187FBB;
+           width: 100%;
+           height: 120%;
+           padding: 40px 0;
+           margin-top: 13px;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           transition: 0.3s;
+           
+       }
+ 
+       .six_block_item_name {
+          color: #187FBB;
+          transition: 0.3s;
+       }
+ 
+       .orderbutton {
+          background-color: #187FBB;
+          color: #ffffff;
+          transition: 0.3s;
+          border: 1px solid  rgba(255,255, 255, .2);
+      }
+      .blueblock {
+       background-color: #187FBB;
+           width: 280px;
+           height: 80%;
+           padding: 40px 0;
+           margin-top: -20px;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           transition: 0.3s;
+           color: #ffffff;
+           margin-left: 10px;
+          
+           
+       
+      }
+      .six_block_item_hr hr {
+       height: 0px;
+       color: black;
+       width: 0px;
+       
+   }
+   
+   .desci {
+    margin-top: -20px;
+ }
+ 
+     
+     }
+    
+     
+ }
+ 
+ .six_block_item_hr hr {
+     height: 1px;
+     color: black;
+     width: 280px;
+     margin-left: 10px;
+ }
+ 
+ .six_block_item_name {
+     font-size: 24px;
+     margin-top: 20px;
+     font-weight: bold;
+     margin-left: 13px;
+ }
+ 
+ .six_block_item_price {
+     padding: 20px 0px;
+     
+ }
+ 
+ .order_button {
+     background-color: #187FBB;
+     color: #ffffff;
+     border: 1px solid  rgba(255,255, 255, .2);
+ }
+
+ .card-columns {
+    column-count: 4;
+    margin-bottom: 55px;
+ }
+
+ .six_block_item button {
+    margin-top: 55px;
+ }
+
+ .price span {
+    margin-left: 20px;
+  }
+
+  .price {
+    font-size: 18px;
+    color: #999999;
+ }
+ 
+ .cifra {
+    font-size: 62px;
+ line-height: 20px;
+ color: #1a1a1a;
+ font-weight: 600;
+ font-family: "Source Sans Pro";
+ text-align: center;
+ margin-top: 15px;
+ margin-left: 15px;
+ margin-bottom: 18px;
+ 
+ }
+ 
+ .cifra sup {
+    top: -1em;
+ }
+  .cifra sup {
+    position: relative;
+    font-size: 45%;
+    line-height: 0;
+    vertical-align: baseline;
+ }
+ 
+ .six_block_item-description p {
+    margin: 20px;
+    margin-top: 25px;
+    margin-left: 40px;
+    margin-bottom: -15px;
+    text-align: center;
+    max-width: 78%;
+    line-height: 26px;
+ }
+ 
+ .six_block_item-description p span {
+    color: #008ED6;
+ }
+
+ .six_block_header {
+   margin-top: 57px;
+}
+
+.six_block_header h6 {
+    font-size: 14px;
+   letter-spacing: 1.4px;
+   margin-left: 50px;
+}
+
+.six_block_header h2 {
+   margin-top: 5px;
+   letter-spacing: 1.3px;
+   margin-left: 53px;
+   margin-bottom: 0;
+   font-size: 32px
+}
+
+.six_block_header .hr img {
+  margin-left: 55px;
+  
+}

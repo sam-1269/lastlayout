@@ -1,0 +1,155 @@
+.second_block_header h6 {
+    font-size: 14px;
+    margin-bottom: -7px;
+    font-weight: bold;
+    color: #187FBB;
+    letter-spacing: 1.3px;
+  font-stretch: expanded;
+ }
+ .second_block_header h2 {
+    font-weight: 600;
+     font-size: 34px;
+    letter-spacing: 1px;
+   
+ }
+
+ .second_block_item_description {
+   text-align: center;
+   max-width: 95%;
+ }
+
+ .second_block_item_picture {
+    width: 88px;
+    height: 88px;
+    border-radius: 44px;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+ }
+
+ .second_block_item_picture img {
+    margin-top: 28px;
+    margin-left: 27px;
+ }
+
+ .responsive_img img{
+   margin-top: 30px;
+ }
+
+ .second_block_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 72px;
+    margin-left: 15px;
+   
+    
+ }
+
+ .one_item {
+   margin-left: 4px;
+   
+}
+
+
+
+
+ .second_block_row p {
+   text-align: center;
+   line-height: 27px;
+ }
+
+ .second_block_item_name {
+    margin-top: 30px;
+ }
+ .second_block_item_name h3{
+    font-size: 24px;
+    letter-spacing: 0.1px;
+ }
+
+ .fourphoto img {
+    margin-left: 33px;
+ }
+
+ .smallpicture {
+    margin-bottom: 10px;
+    font-size: 18px;
+    
+ }
+
+ .smallpicture img {
+   margin-bottom: 0px;
+   padding-right: 10px;
+   margin-left: 5px;
+
+}
+
+ .allsmallpictures {
+   margin-top: -25px;
+   margin-left: 17px;
+   font-size: 18px;
+   display: flex;
+   flex-direction: column;
+   text-align: left;
+ }
+
+ .second_row_right h6 {
+   margin-left: 23px;
+   font-size: 14px;
+   letter-spacing: 1.35px;
+   
+   margin-top: 9px;
+ }
+
+ .second_row_right h2 {
+   margin-left: 23px;
+   letter-spacing: 0.8px;
+   font-weight: 600;
+   font-size: 34px;
+   margin-top: 11px;
+  
+ }
+
+  .second_row_right .hr img {
+   margin-left: 22px;
+  }
+
+ .second_row_right p {
+   margin-top: 25px;
+   margin-left: 23px;
+   margin-bottom: 55px;
+   width: 105%;
+   line-height: 26px;
+   font-size: 18px;
+   text-align: left;
+   letter-spacing: 0.1px;
+ }
+
+ .secondrow {
+   margin-top: 130px;
+  }
+
+ .secondrow_img img{
+   margin-top: -13px;
+   margin-left: 20px;
+   padding-bottom: 34px;
+ }
+
+ .second_row_right {
+   margin-top: 30px;
+   
+   
+ }
+
+ .second_row_right p {
+   margin-bottom: 55px;
+}
+
+.second_row_right {
+   display: flex;
+   justify-content: center;
+   height: auto;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
