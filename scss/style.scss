@@ -166,6 +166,7 @@
           flex-direction: column;
           align-items: center;
           justify-content: center;
+          margin-top: 25px;
     }
 
     .header_menu ul {
@@ -1199,6 +1200,7 @@
 
      .header_buttons {
        display: flex;
+       gap: 5px;
      }
 
      .first_contact_item {
@@ -1251,7 +1253,6 @@
       margin-top: 65px;
       display: block;
       transition: 2s;
-      opacity: 0.8;
      }
 
      .header_menu .header_list{
